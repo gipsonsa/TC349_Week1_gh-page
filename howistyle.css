@@ -1,0 +1,240 @@
+/****************************** Layout ******************************/
+
+html {
+	background-color: #D9EBFF;
+}
+
+body {
+	max-width: 100%;
+
+}
+
+.clearfix {
+	clear: both;
+}
+
+p {
+	font-size: 18px;
+	font-family: helvetica;
+}
+
+h1 {
+	font-family: helvetica;
+}
+
+h2 {
+	font-family: helvetica;
+}
+
+/****************************** First Page ******************************/
+
+#profilepic {
+	float: left;
+	width: 35%;
+	margin-left: 100px;
+
+}
+
+#howiwork {
+	float: right;
+	width: 30%;
+	margin-right: 100px;
+	margin-top: 00px;
+	font-size: 26px;
+}
+
+.howiwork {
+	text-align: center;
+	font-family: helvetica;
+}
+
+.howiworkp {
+	text-align: justify;
+	font-family: helvetica;
+	font-size: 24px;
+}
+
+.top {
+	margin-top: 250px;
+
+}
+
+/****************************** Second Page ******************************/
+
+#good {
+	text-align: justify;
+	font-family: helvetica;
+	width: 30%;
+	float: left;
+	margin-right: 2%;
+}
+
+#bad {
+	text-align: justify;
+	float: left;
+	width: 30%;
+	margin-right: 4%;
+	margin-left: 2%;
+}
+
+#ugly {
+	text-align: justify;
+	width: 30%;
+	float: left;
+}
+
+#second {
+	margin-top: 400px;
+	max-width: 100%;
+	background-color: #E6FFFF;
+	float: left;
+	padding-top: 400px;
+	padding-bottom: 400px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: -8px;
+	margin-right: -10px;
+}
+
+/****************************** Third Page ******************************/
+
+#third {
+	text-align: justify;
+	max-width: 100%;
+	float: left;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: white;
+	margin-right: -10px;
+	margin-left: -8px;
+}
+
+#station {
+	width: 20%;
+	float: right;
+}
+
+#mac {
+	width: 25%;
+	display: inline-block;
+}
+
+#logitech {
+	width: 25%;
+	display: inline-block;
+}
+
+#mouse {
+	width: 25%;
+	display: inline-block;
+}
+
+#asus {
+	width: 23%;
+	display: inline-block;
+}
+
+h3 {
+	font-family: helvetica;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+/****************************** Responsive ******************************/
+
+
+@media (max-width: 1200px) {
+
+	#howiwork {
+		float: none;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	#profilepic {
+		display: block;
+		float: none;
+		margin: -150px auto 0 auto;
+		width: 50%;
+
+	}
+
+	#good, #bad, #ugly {
+		float: none;
+		width: 90%;
+		text-align: justify;
+	}
+
+	#good h2, #bad h2, #ugly h2 {
+		text-align: center;
+	}	
+
+	#bad, {
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+
+
+#station {
+	max-width: 30%;
+	float: right;
+}
+
+#second {
+	margin-top: 10%;
+	padding-top: 12%;
+	padding-bottom: 12%;
+}
+
+#third {
+	padding-top: 12%;
+	padding-bottom: 12%;
+}
+
+}
+
+@media (max-width: 715px) {
+	#asus, #logitech, #mac, #mouse {
+		width: 23%;
+	}
+
+	#second {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		margin-top: 10%;
+	}
+
+	#third {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+}
+
+@media (max-width: 500px) {
+	#asus, #logitech, #mac, #mouse {
+		display: block;
+		width: 50%;
+		margin-left: 75px;
+	}
+
+	#howiwork, .howiworkp {
+		font-size: 100%;
+	}
+
+	#second {
+		padding-top: 12%;
+		padding-bottom: 12%;
+	}
+
+	#third {
+		padding-top:  20%;
+		padding-bottom: 12%;
+	}
+
+}
